@@ -21,17 +21,17 @@ Steps to run this program:
 
 4)	Topology Description:
 	Consider a ring Topology like with the following weight:
-	,,,,,,,, 		,,,,,,,
+	,,,,,,,, 	,,,,,,,
 	|Glados|____2___|Queeg|
-	```````			```````
-	  |				   |
-	  |				   |
-	  |6			   |4
-	  |				   |
-	  |				   |
-	,,,,,,,,		,,,,,,	
+	```````		```````
+	  |		   |
+	  |		   |
+	  |6		   |4
+	  |		   |
+	  |		   |
+	,,,,,,,,	,,,,,,	
 	|Commet|____8___|Rhea|
-	````````  		``````
+	````````  	``````
 	All routers will be connected to each other one by one and will update the weight accordingly.
 	
 5) On stopping a router the weights are supposed to update according to the latest route.
